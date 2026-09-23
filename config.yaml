@@ -1,0 +1,14 @@
+feishu: {}
+
+trending:
+  language: ""
+  top_n: 10
+
+llm:
+  provider: "gpt-model-proxy"
+  model: "gpt-6-sol"
+  base_url: "http://127.0.0.1:8787/v1"
+
+# Optional fallback when llm.provider is "anthropic".
+anthropic:
+  model: "claude-haiku-4-5-20251001"

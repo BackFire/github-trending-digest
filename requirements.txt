@@ -1,0 +1,6 @@
+anthropic
+openai>=1.69.0
+requests
+beautifulsoup4
+pyyaml
+lxml
